@@ -314,36 +314,36 @@ li a {
 
 #sketchbook {
     width: 60vw;
-    height: 70vh;
+    height: 80vh;
     position: relative;
     margin: auto;
     z-index: 2;
 }
 
 #sketchbook .page {
-    width: 30vw;        /* HALF of book width */
-    height: 70vh;       /* SAME as book height */
+    width: 30vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #sketchbook .page img {
-    width: 30vw;        /* HALF of book width */
-    height: 70vh;  
+    width: 30vw;
+    height: 80vh;  
 }
 .book-message {
     position: absolute;
     top: 40%;
     left: 5vw;
-    z-index: 1; /* lower than pages */
+    z-index: 1;
     font-size: 18px;
     font-weight: bold;
-    pointer-events: none; /* so it doesn't block clicks */
+    pointer-events: none;
 
 }.book-wrapper {
     position: relative;
     width: 70vw;
-    height: 70vh;
+    height: 80vh;
     margin: 0 auto;
 }
