@@ -204,45 +204,12 @@ notes:
 
 
 
-    <div class="video-projects">
-        <h1>Video Projects</h1>
-        <table style="width: 100%;">
-            <tr>
-                <p>Videos commissions, edited with Davinci Resolve:</p>
-                <td>
-                    <div class="video-file">
-                        <video width="device-width" height="auto" controls>
-                            <source src="videos/a_long_drive.mp4" type="video/mp4">Your browser does not support the video tag... luckily, it's also available
-                            <a href="https://drive.google.com/file/d/1Hn6tSXN113H5WXO4PdhtO5qlskt-3W5t/view?usp=sharing">here!</a> (Google Drive Link)
-                        </video>
-                    </div>
-                </td>
-                <td>
-                    <div class="video-file">
-                        <video width="device-width" height="auto" controls>
-                            <source src="videos/cottage_vlog.mp4" type="video/mp4">
-                            Your browser does not support the video tag... luckily, it's also available <a href="https://drive.google.com/file/d/1Hn6tSXN113H5WXO4PdhtO5qlskt-3W5t/view?usp=sharing">here!</a> (Google Drive Link)
-                        </video>
-                    </div>
-                </td>
-
-            </tr>
-        </table>
-
-
-
-
-
-    </div>
-
-
 
     <div class="graphic-projects">
         <h1>Drawing Projects</h1>
     <div class="book-wrapper">
         <div class="book-message">
             <p>my actual sketchbook -></p>
-            <br>
             <p>try flipping through </p>
             <p>the pages!</p>
         </div>
@@ -283,17 +250,50 @@ notes:
 
     </div>
 
-    <!-- Turn.js below: -->
-<script>
-$(function () {
-    const book = document.getElementById("sketchbook");
+    <script>
+    $(function () {
+        const book = document.getElementById("sketchbook");
 
-    $("#sketchbook").turn({
-        width: book.clientWidth,
-        height: book.clientHeight,
-        autoCenter: true
+        $("#sketchbook").turn({
+            width: book.clientWidth,
+            height: book.clientHeight,
+            autoCenter: true
+        });
     });
-});
-</script>
+    </script>
+
+
+
+    <div class="video-projects">
+        <h1>Video Projects</h1>
+        <table style="width: 100%;">
+            <tr>
+                <p>Videos commissions, edited with Davinci Resolve:</p>
+                <td>
+                    <div class="video-file">
+                        <video width="device-width" height="auto" controls>
+                            <source src="videos/a_long_drive.mp4" type="video/mp4">Your browser does not support the video tag... luckily, it's also available
+                            <a href="https://drive.google.com/file/d/1Hn6tSXN113H5WXO4PdhtO5qlskt-3W5t/view?usp=sharing">here!</a> (Google Drive Link)
+                        </video>
+                    </div>
+                </td>
+                <td>
+                    <div class="video-file">
+                        <video width="device-width" height="auto" controls>
+                            <source src="videos/cottage_vlog.mp4" type="video/mp4">
+                            Your browser does not support the video tag... luckily, it's also available <a href="https://drive.google.com/file/d/1Hn6tSXN113H5WXO4PdhtO5qlskt-3W5t/view?usp=sharing">here!</a> (Google Drive Link)
+                        </video>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+
+
+
+
+
+    </div>
+
 </body>
 </html>
